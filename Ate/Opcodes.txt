@@ -1,0 +1,11 @@
+Opcodes
+
+load X, Y	loads the value "X" into  Y
+move X, Y	takes the byte from X and places it into Y
+copy X, Y	copy the value of X to Y
+swap X, Y	swaps the values between X and Y
+add  X, Y	adds X to Y and stores the result into address X.
+sub  X, Y	subtracts X from Y and stores the result into address X
+div  X, Y	divides X by Y and stores the result into X (integer division only)
+mul  X, Y	multiplies X by Y and stores the result into X
+print X, Y	prints the values as characters from memory location X, to memory location Y (ASCII encoding)
